@@ -1,0 +1,184 @@
+/* General Styles */
+body {
+    margin: 40px;
+    font-family: Roboto, Arial, sans-serif;
+    background-color: #f0f0f0;
+    background: -webkit-radial-gradient(circle, #f6d365, #fda085);
+    background: -moz-radial-gradient(circle, #f6d365, #fda085);
+    background: -o-radial-gradient(circle, #f6d365, #fda085);
+    background: radial-gradient(circle, #f6d365, #fda085);
+  }
+  
+  /* Header Styles */
+  .header {
+    height: 50px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    border-bottom: 1px solid rgb(9, 9, 9);
+    z-index: 100;
+  }
+  
+  .leftSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f39c12;
+    width: 100px;
+    text-align: center;
+  }
+  
+  .hamburger {
+    height: 40px;
+    width: 40px;
+  }
+  
+  .middleSection {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background: #0ae990;
+    border-radius: 30px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.3);
+  }
+  
+  .middleSection input {
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    background: transparent;
+    transition: 0.8s;
+  }
+  
+  .middleSection:hover input {
+    width: 400px;
+  }
+  
+  .middleSection a {
+    color: aquamarine;
+    font-size: 18px;
+  }
+  
+  .rightSection {
+    display: flex;
+    width: 220px;
+    margin-right: 24px;
+    align-items: center;
+    background-color: rgb(252, 248, 247);
+  }
+  
+  .WorkingDiv {
+    display: flex;
+    width: 150px;
+    height: 28px;
+    margin: 15px;
+    align-items: center;
+    box-shadow: 0 0 20px 9px rgb(220, 218, 210);
+    border-radius: 30px;
+  }
+  
+  .toggleBtn {
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+  }
+  
+  #SignUp {
+    border-radius: 30px;
+    width: 80px;
+    height: 28px;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    transition: 0.5s;
+  }
+  
+  .socials {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Container and Boxes */
+  .container {
+    display: flex;
+    flex-direction: row;
+    padding-top: 20px;
+    gap: 10px;
+   
+  }
+  
+  .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .a {
+height: 228px;
+width: 343px;
+
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6bL2IFPAwlSH9MqTODuzum9mMmWUQFlRZbA&s'); /* Replace with your weather background image URL */
+  }
+  
+  .b {
+   height: 228px;
+   width: 343px;
+
+    text-align: center;
+    background-image: url('https://t3.ftcdn.net/jpg/02/06/14/56/360_F_206145642_ch7d799Dq38xZfRQjEAYRLaYS9jsmezF.jpg'); /* Replace with your calculator background image URL */
+  }
+  
+  .c {
+    height: 228px;
+    width: 343px;
+
+    text-align: center;
+    background-image: url('https://png.pngtree.com/background/20230516/original/pngtree-watch-in-dark-is-made-with-a-black-background-picture-image_2602860.jpg'); /* Replace with your clock background image URL */
+  }
+  
+  .d {
+    height: 228px;
+    width: 343px;
+
+    text-align: center;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXTFV0T2kehNIpa0YlK77ouDcLNKbORh--CQ&s'); /* Replace with your temperature converter background image URL */
+  }
+  
+  /* Additional Styles */
+  .weatherSearch1 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .weatherSearch1 input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .button {
+    height: 80px;
+    width: 80px;
+  }
+  
+  .magnify {
+    height: 60px;
+    width: 60px;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
